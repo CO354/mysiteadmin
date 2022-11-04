@@ -1,331 +1,426 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="/assets/css/bootstrap-grid.css" />
-    <link rel="stylesheet" href="/assets/css/myStyle.css" />
-    <title>Home</title>
-  </head>
-  <body>
-    <header class="nav">
-      <section class="signuser">
-        <section class="container">
-          <ul class="usernav">
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Log in</a></li>
-          </ul>
-        </section>
-        <!--container-->
-        <div class="clear"></div>
-      </section>
-      <!--signuer-->
-      <section class="backgr">
-        <section class="container move">
-          <div class="navigation">
-            <div class="logo">
-              <img src="/assets/images/logo.png" alt="logo" />
-            </div>
-            <!--logo-->
+<%- include('includes/header') %>
+<%- include('includes/navbar') %>
 
-            <div class="menu-desktop">
-              <ul class="align">
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Alumi</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-            <!--menu-desktop-->
-          </div>
-          <!--navigation-->
-        </section>
-        <!--container-->
-      </section>
-      <!--backgr-->
-    </header>
+<main role="main" class="upSliderimg">
+<section class="py-0">
+   <!-- Swiper -->
+   <div class="swiper-container theme-slide min-vh-100">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
 
-    <main role="main">
-      <section
-        id="carouselImg"
-        class="carousel slide carousel-fade banners w70"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/assets/images/slide1.jpg" class="d-block" alt="..." />
-            <div class="carousel-caption d-xs-block d-md-block">
-              <div class="container formatter">
-                <h1>Primeiro slide label</h1>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-                <a class="btn btn-primary"
-                  >Leia Mais<img src="/assets/svgs/anglearrowhite.svg"
-                /></a>
-                <a class="btn btn-warning"
-                  >Contacto-nos<img src="/assets/svgs/anglearrowhiteblue.svg"
-                /></a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/images/slide2.jpg" class="d-block" alt="..." />
-            <div class="carousel-caption d-xs-block d-md-block">
-              <div class="container formatter">
-                <h1>Segundo slide label</h1>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-                <a class="btn btn-primary"
-                  >Leia Mais<img src="/assets/svgs/anglearrowhite.svg"
-                /></a>
-                <a class="btn btn-warning"
-                  >Contacto-nos<img src="/assets/svgs/anglearrowhiteblue.svg"
-                /></a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/images/slide3.jpg" class="d-block" alt="..." />
-            <div class="carousel-caption d-xs-block d-md-block">
-              <div class="container formatter">
-                <h1>Terceiro slide label</h1>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-                <a class="btn btn-primary"
-                  >Leia Mais<img src="/assets/svgs/anglearrowhite.svg"
-                /></a>
-                <a class="btn btn-warning"
-                  >Contacto-nos<img src="/assets/svgs/anglearrowhiteblue.svg"
-                /></a>
-              </div>
-            </div>
-          </div>
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
 
-          <div class="carousel-item">
-            <img src="/assets/images/slide4.jpg" class="d-block" alt="..." />
-            <div class="carousel-caption d-xs-block d-md-block">
-              <div class="container formatter">
-                <h1>Quarto slide label</h1>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-                <a class="btn btn-primary"
-                  >Leia Mais<img src="/assets/svgs/anglearrowhite.svg"
-                /></a>
-                <a class="btn btn-warning"
-                  >Contacto-nos<img src="/assets/svgs/anglearrowhiteblue.svg"
-                /></a>
-              </div>
-            </div>
-          </div>
+  <section class="justify">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <h1>Seja Bem-Vindo ao Event</h1>
+        <p class="formating">Escolha o Event com os melhores consultores</p>
+        <span class="short"></span>
+      </div>
+      <!--text-center-->
 
-          <div class="carousel-item">
-            <img src="/assets/images/slide5.jpg" class="d-block" alt="..." />
-            <div class="carousel-caption d-xs-block d-md-block">
-              <div class="container formatter">
-                <h1>Quinto slide label</h1>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-                <a class="btn btn-primary"
-                  >Leia Mais<img src="/assets/svgs/anglearrowhite.svg"
-                /></a>
-                <a class="btn btn-warning"
-                  >Contacto-nos<img src="/assets/svgs/anglearrowhiteblue.svg"
-                /></a>
-              </div>
-            </div>
+      <div class="row mt-4 mt-md-5">
+        <div class="col-sm-6 col-lg-3 mt-4">
+          <div class="circle ring-icon mx-auto">
+            <img src="/assets/svgs/estatisticas.svg" alt="estatisticas" />
           </div>
-
-          <div class="carousel-item">
-            <img src="/assets/images/slide6.jpg" class="d-block" alt="..." />
-            <div class="carousel-caption d-xs-block d-md-block">
-              <div class="container formatter">
-                <h1>Sexto slide label</h1>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-                <a class="btn btn-primary"
-                  >Leia Mais<img src="/assets/svgs/anglearrowhite.svg"
-                /></a>
-                <a class="btn btn-warning"
-                  >Contacto-nos<img src="/assets/svgs/anglearrowhiteblue.svg"
-                /></a>
-              </div>
-            </div>
-          </div>
+          <h5 class="mt-4">Consultoria de Negócios</h5>
+          <p class="formating">
+            Solução para todos os problemas relacionados ao negócio, com rapidez
+            e habilidade.
+          </p>
         </div>
-        <a
-          class="carousel-control-prev"
-          type="a"
-          data-bs-target="#carouselImg"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          type="a"
-          data-bs-target="#carouselImg"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
-      </section>
-      <!--Slider-->
-
-      <section class="justify">
-        <div class="container">
-          <div class="row justify-content-center text-center">
-            <h1>Seja Bem-Vindo ao Event</h1>
-            <p class="formating">Escolha o Event com os melhores consultores</p>
-            <span class="short"></span>
+        <!--col-sm-6 -->
+        <div class="col-sm-6 col-lg-3 mt-4">
+          <div class="circle ring-icon mx-auto">
+            <img src="/assets/svgs/sino.svg" alt="sino" />
           </div>
-          <!--text-center-->
-
-          <div class="row mt-4 mt-md-5">
-            <div class="col-sm-6 col-lg-3 mt-4">
-              <div class="circle ring-icon mx-auto">
-                <img src="/assets/svgs/estatisticas.svg" alt="" />
-              </div>
-              <h5 class="mt-4">Consultoria de Negócios</h5>
-              <p class="formating">
-                Solução para todos os problemas relacionados ao negócio, com
-                rapidez e habilidade.
-              </p>
-            </div>
-            <!--col-sm-6 -->
-            <div class="col-sm-6 col-lg-3 mt-4">
-              <div class="circle ring-icon mx-auto">
-                <img src="/assets/svgs/sino.svg" alt="" />
-              </div>
-              <!--col-sm-6 -->
-              <h5 class="mt-4">Gerenciamento de Riscos</h5>
-              <p class="formating">
-                Calcule todos os riscos possíveis em seu negócio, tome controle
-                sobre eles.
-              </p>
-            </div>
-            <!--col-sm-6 -->
-            <div class="col-sm-6 col-lg-3 mt-4">
-              <div class="circle ring-icon mx-auto">
-                <img src="/assets/svgs/light.svg" alt="" />
-              </div>
-              <h5 class="mt-4">Pesquisa de Mercado</h5>
-              <p class="formating">
-                Conheça o mercado antes de dar qualquer passo, reduza riscos
-                antes de ir.
-              </p>
-            </div>
-            <!--col-sm-6 -->
-            <div class="col-sm-6 col-lg-3 mt-4">
-              <div class="circle ring-icon mx-auto">
-                <img src="/assets/svgs/fone.svg" alt="" />
-              </div>
-              <h5 class="mt-4">Serviços de Qualidade</h5>
-              <p class="formating">
-                Experience unparalleled service, from beginning to final
-                construction.
-              </p>
-            </div>
-            <!--col-sm-6 -->
-          </div>
-          <!--mt-4 mt-md-5 row -->
+          <!--col-sm-6 -->
+          <h5 class="mt-4">Gerenciamento de Riscos</h5>
+          <p class="formating">
+            Calcule todos os riscos possíveis em seu negócio, tome controle
+            sobre eles.
+          </p>
         </div>
-        <!--container-->
-      </section>
-      <!--justify-->
+        <!--col-sm-6 -->
+        <div class="col-sm-6 col-lg-3 mt-4">
+          <div class="circle ring-icon mx-auto">
+            <img src="/assets/svgs/light.svg" alt="light" />
+          </div>
+          <h5 class="mt-4">Pesquisa de Mercado</h5>
+          <p class="formating">
+            Conheça o mercado antes de dar qualquer passo, reduza riscos antes
+            de ir.
+          </p>
+        </div>
+        <!--col-sm-6 -->
+        <div class="col-sm-6 col-lg-3 mt-4">
+          <div class="circle ring-icon mx-auto">
+            <img src="/assets/svgs/fone.svg" alt="font" />
+          </div>
+          <h5 class="mt-4">Serviços de Qualidade</h5>
+          <p class="formating">
+            Experience unparalleled service, from beginning to final
+            construction.
+          </p>
+        </div>
+        <!--col-sm-6 -->
+      </div>
+      <!--mt-4 mt-md-5 row -->
+    </div>
+    <!--container-->
+  </section>
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
 
-      <section class="pt-0">
-        <div class="container">
-          <div class="row flex-center text-center pb-6">
-            <div class="col-12">
-              <div
-                class="position-relative mt-4 py-5 py-md-11"
-                style="height: 600px"
-              >
-                <div class="bg-holder rounded-3 videoImages">
-                  <iframe
-                    class="bg-holder rounded-3"
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/PfxLRA2bJ3A"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
+  <section class="pt-0">
+    <div class="container">
+      <div class="row flex-center text-center pb-6">
+        <div class="col-12">
+          <div
+            class="position-relative mt-4 py-5 py-md-11"
+            style="height: 600px"
+          >
+            <div class="bg-holder rounded-3 videoImages">
+              <iframe
+                class="bg-holder rounded-3"
+              
+                src="https://www.youtube.com/embed/PfxLRA2bJ3A"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
 
-                  <!-- <button class="btn-event-player videoModel">
+              <!-- <button class="btn-event-player videoModel">
                     <img src="/assets/svgs/toque.svg" alt="consulting" />
                   </button> PARA BUTAO PLAYER -->
 
-                  <!--btn-event-->
-                </div>
-                <!--/.bg-holder-->
+              <!--btn-event-->
+            </div>
+            <!--/.bg-holder-->
+          </div>
+        </div>
+        <!--col-12-->
+      </div>
+      <!-- row flex-center-->
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-lg-4 mt-5 mt-lg-0 px-4 px-sm-3 textJustify">
+          <h5><img src="/assets/svgs/usuarios.svg" alt="usuarios" />Equipe Incrível</h5>
+          <p>
+            Antes de falar sobre o destino, destacamos a sua organização para
+            compreendê-lo completamente.
+          </p>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mt-5 mt-lg-0 px-4 px-sm-3 textJustify">
+          <h5>
+            <img src="/assets/svgs/comments.svg" alt="comments" />Excelente Suporte
+          </h5>
+          <p>
+            Se você enfrentar algum problema, sempre poderá deixar nossa equipe
+            de suporte dedicada ajudá-lo. Eles estão prontos para você 24/7.
+          </p>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mt-5 mt-lg-0 px-4 px-sm-3 textJustify">
+          <h5><img src="/assets/svgs/bolt.svg" alt="bolt" />Desempenho Rápido</h5>
+          <p>
+            Desenvolvemos um processo sistemático e bem ordenado de análise,
+            desde o conceito até a implementação.
+          </p>
+        </div>
+      </div>
+      <!--row-->
+    </div>
+    <!--container-->
+  </section>
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+<%- include('includes/servicesWorker') %>
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+<%- include('includes/informativeTeam') %>
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+ <%- include('includes/availableTime') %>
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+  <!--Begin-->
+  <section>
+  </section>
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+  <section class="bg-event">
+    <div class="container">
+      <div class="justify-content-center text-center">
+        <h4 class="fs-3 fs-md-2">Por que escolher o Event</h4>
+        <span class="short"></span>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mt-4">
+          <div class="px-3 py-4 px-lg-4">
+            <img src="" alt="icon" />
+            <h5>titulo</h5>
+            <p>paragrafo</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mt-4">
+          <div class="px-3 py-4 px-lg-4">
+            <img src="" alt="icon" />
+            <h5>titulo</h5>
+            <p>paragrafo</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mt-4">
+          <div class="px-3 py-4 px-lg-4">
+            <img src="" alt="icon" />
+            <h5>titulo</h5>
+            <p>paragrafo</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mt-4">
+          <div class="px-3 py-4 px-lg-4">
+            <img src="" alt="icon" />
+            <h5>titulo</h5>
+            <p>paragrafo</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mt-4">
+          <div class="px-3 py-4 px-lg-4">
+            <img src="" alt="icon" />
+            <h5>titulo</h5>
+            <p>paragrafo</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mt-4">
+          <div class="px-3 py-4 px-lg-4">
+            <img src="" alt="icon" />
+            <h5>titulo</h5>
+            <p>paragrafo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+  <section class="bg-won">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <div class="col-lg-4 text-white">
+          <div
+            class="border border-2 border-info p-4 py-lg-5 text-center rounded-3"
+          >
+            <h4>BEM-VINDO</h4>
+            <p class="px-lg-1 text-100 mb-0">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
+              id laborum et exercitationem tempore cupiditate placeat sint eaque
+              asperiores eligendi ab corporis perspiciatis optio aut, reiciendis
+              sapiente molestiae eius ullam.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0">
+          <h5 class="text-white">EU Gostaria fazer</h5>
+          <!-- FORM  -->
+          <form class="mt-4 form-right" action="">
+            <div class="row">
+              <div class="col-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Seu Nome"
+                  aria-label="Seu Nome"
+                />
+              </div>
+
+              <div class="col-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Número de telefone"
+                  aria-label="Número de telefone"
+                />
+              </div>
+
+              <div class="col-6 mt-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Assunto"
+                  aria-label="Assunto"
+                />
+              </div>
+
+              <div class="col-6 mt-4">
+                <input
+                  type="submit"
+                  class="btn btn-warning w-100"
+                  value="Enviar"
+                  style="font-weight: 600"
+                />
               </div>
             </div>
-            <!--col-12-->
-          </div>
-          <!-- row flex-center-->
-
-          <div class="row mt-5">
-            <div class="col-sm-6 col-lg-4 mt-5 mt-lg-0 px-4 px-sm-3 textJustify">
-              <h5><img src="/assets/svgs/usuarios.svg" alt=""> Equipe Oncrível</h5>
-              <p>
-                Antes de falar sobre o destino, destacamos a sua organização
-                para compreendê-lo completamente.
-              </p>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 mt-5 mt-lg-0 px-4 px-sm-3 textJustify ">
-              <h5><img src="/assets/svgs/comments.svg" alt=""> Excelente Suporte</h5>
-              <p>
-                Se você enfrentar algum problema, sempre poderá deixar nossa
-                equipe de suporte dedicada ajudá-lo. Eles estão prontos para
-                você 24/7.
-              </p>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 mt-5 mt-lg-0 px-4 px-sm-3 textJustify">
-              <h5><img src="/assets/svgs/bolt.svg" alt=""> Desempenho Rápido</h5>
-              <p>
-                Desenvolvemos um processo sistemático e bem ordenado de análise,
-                desde o conceito até a implementação.
-              </p>
-            </div>
-          </div>
-          <!--row-->
+          </form>
         </div>
-        <!--container-->
-      </section>
-      <!--section close -->
+      </div>
+    </div>
+  </section>
+ <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
 
-      <section class="services bg-services">
-        <div class="container">
-          <div class="row justify-content-center text-center ">
-            <h1>Nossos Serviços</h1>
-            <span class="short"></span>
+  <!--BEGIN SECTION-->
+
+<%- include('includes/staffs') %>
+   <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+ <%- include('includes/metaFunction') %>
+   <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+<%- include('includes/clients') %>
+   <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+ <%- include('includes/brandsLogo') %>
+
+   <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+
+  <section class="bg-news"> 
+    <div class="container">
+      <div class="mb-5">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <a href=""><img  class="card-img-top" src="/assets/images/news1.jpg" alt="news1"></a>
+              <div class="card-body">
+              <div class="overflow-hidden">
+                <a href=""><h5>Tax impacts of lease mean accounting change</h5></a>
+                <p>By Paul O'Sullivan</p>
+                <p>HMRC released a consultation document to flag some potential tax impacts that a forthcoming change...</p>
+                <div class="d-inline-block">
+                  <a class="d-flex align-items-center" href="">Ler Mais ⟶</a>
+                </div>
+              </div>
+              </div>
+            </div>
           </div>
 
-          <div class="mosaico">
-          
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <a href=""><img class="card-img-top" src="/assets/images/news2.jpg" alt="news1"></a>
+              <div class="card-body">
+              <div class="overflow-hidden">
+                <a href=""><h5>What brexit means for data protection law</h5></a>
+                <p>By Enrico Ambrosi</p>
+                <p>Assuming that the referendum is not ignored completely, there are two possible futures for the UK...</p>
+                <div class="d-inline-block">
+                  <a class="d-flex align-items-center" href="">Ler Mais ⟶</a>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
 
-          </div> <!--mosaicos-->
+          <div class="col-md-6 col-lg-4">
+            <div class="card text-left">
+              <a href=""><img class="card-img-top" src="/assets/images/news3.jpg" alt="news1"></a>
+              <div class="card-body ">
+              <div class="overflow-hidden">
+                <a href=""><h5>The growing meanace of social engineering fraud</h5></a>
+                <p class="text-500">By Robson</p>
+                <p>Social engineering involves the collection of information from various sources about a target...</p>
+                <div class="d-inline-block">
+                  <a class="d-flex align-items-center" href="">Ler Mais ⟶</a>
+                </div>
+               
 
-          
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </section> <!--close section-->
-    </main>
+      </div>
+    </div>
+  </section>
+   <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
 
-    <script src="/assets/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="/assets/js/bootstrap.js"></script>
-  </body>
-</html>
+ <%- include('includes/sectionInfo') %>
+
+   <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <!--close section-->
+</main>
+<%- include('includes/footer') %>
