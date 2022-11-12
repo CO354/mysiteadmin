@@ -22,6 +22,10 @@
 body {
     height: 100%;
 }
+p{
+    font-size: 17px;
+    font-weight: 400;
+}
 
 .clear {
     clear: both;
@@ -90,19 +94,11 @@ ul.align {
 
 
 
-section#carouselImg {
-   margin-top: -5rem;
-   
-}
-
-
-
-
 
 
 .formatter h1 {
     font-size: 67px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--primary-color);
 }
 
@@ -114,8 +110,8 @@ section#carouselImg {
 }
 
 .formatter a {
-    margin: 16px 16px;
-    padding: 12px 40px;
+    margin: 10px 10px;
+    padding: 12px 20px;
     font-size: 16px;
     font-weight: 600;
     justify-items: center;
@@ -269,6 +265,7 @@ button.btn-event-player:hover::before {
 
 
 .bg-services {
+    background-color: #fff;
     color: var(--color-paragraph);
 
 }
@@ -347,6 +344,16 @@ section.bg-event h4 {
 section.bg-won {
     padding: 120px 0;
     background-color: var(--primary-color);
+}
+
+.form-right input[type=text]{
+    padding: 0.700em;
+    border: none;
+}
+
+.form-right input[type=email]{
+    padding: 0.700em;
+    border: none;
 }
 
 .form-right input[type=text]{
@@ -509,6 +516,137 @@ section.bg-contact{
     width: 15%;
     
 }
+.just{
+    width: auto;
+    height: 450px;
+}
+
+
+.imgBackground{
+    background-image: url('../images/contacts.png');
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgAbout{
+    background-image: url('../images/services.png');
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgServices{
+    background-image: url('../images/services.png');
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.imgAlumi{
+    background-image: url('../images/services.png');
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* REGISTER  SECTION*/
+
+
+
+.main {
+    display: block;
+}
+
+.bg-image_register{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/register.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/register.jpg");
+    background-image: -o-linear-gradient(top, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/register.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/register.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.55)), to(rgba(0,0,0,.55))), url("../images/register.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/register.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.bg-image_register::before{
+    background-color: rgba(0,0,0,.55);
+}
+
+
+.regist input[type=text]{
+    padding: 0.700em;
+   
+}
+
+.regist input[type=email]{
+    padding: 0.700em;
+   
+}
+
+.regist input[type=text]{
+    padding: 0.700em;
+}
+.regist button{
+    padding: 0.800em;
+}
+
+
+
+.bg-image_login{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/login.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/login.jpg");
+    background-image: -o-linear-gradient(top, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/login.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/login.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.55)), to(rgba(0,0,0,.55))), url("../images/login.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/login.jpg");
+
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.logi input[type=text]{
+    padding: 0.700em;
+   
+}
+
+.logi input[type=email]{
+    padding: 0.700em;
+   
+}
+
+.logi input[type=text]{
+    padding: 0.700em;
+}
+.logi button{
+    padding: 0.700em;
+}
+.logi svg{
+    margin: 0 8px 0 0;
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+
+svg{
+    margin: 0 8px 0 0;
+    height: 2rem;
+    width: 2rem;
+}
+
+
 
 @media screen and (min-width: 786px), (min-width: 577px) {
 .menu-desktop{

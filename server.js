@@ -1,6 +1,8 @@
-// require('dotenv').config();
+require('dotenv').config();
 const express = require('express');
 const app = express();
+
+// CONECTANDO NO BASEDADOS
 // const mongoose = require('mongoose');
 // mongoose.connect(process.env.CONFIGPASSWORD)
 // .then(() => {
@@ -9,8 +11,11 @@ const app = express();
 // })
 // .catch(e => console.log('Erro Verifique', e));
 // const session = require('express-session');
+
 // const MongoStore = require('connect-mongo')
 // const flash = require('connect-flash');
+
+
 const routes = require('./routes');
 const path = require('path');
 // const helmet = require('helmet');
@@ -19,11 +24,12 @@ const path = require('path');
 
 
 // app.use(helmet());
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // arquivos estaticos nos permite acessar directamente, exp: assets, css, js
 app.use(express.static(path.resolve(__dirname, 'public')));
 
+// ARMAZENANAMENTO DE SESSOES
 // app.use(session({
 //     secret: 'JorgdsfArlando3434323432',
 //     store: MongoStore.create({mongoUrl: process.env.CONFIGPASSWORD}),
@@ -40,7 +46,7 @@ app.set('views', path.resolve(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs');
 
 // app.use(csrf());
-// // Nossos proprios middlewares
+// Nossos proprios middlewares
 // app.use(middlewareGlobal);
 // app.use(checkCsrfError);
 // app.use(csrfMiddlewareToken);
@@ -51,9 +57,12 @@ app.listen(4444, () => {
     console.log("http://localhost:4444")
 })
 
+
 // app.on('Pronto', () =>{
-//     app.listen(5555, () =>{
-//         console.log('Acessar http://localhost:5555');
-//         console.log('Servidor executando na porta 5000');
+//     app.listen(4444, () =>{
+//         console.log('Acessar http://localhost:4444');
+//         console.log('Servidor executando na porta 4444');
 //     });
-// });
+// }
+
+// );
