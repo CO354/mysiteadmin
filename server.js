@@ -53,13 +53,13 @@ app.set('view engine', 'ejs');
 
 app.use(routes);
 
-app.listen(4444, () => {
-    console.log("http://localhost:4444")
+app.listen(7777, () => {
+    console.log("http://localhost:7777")
 })
 
 
 // app.on('Pronto', () =>{
-//     app.listen(4444, () =>{
+//     app.listen(7777, () =>{
 //         console.log('Acessar http://localhost:4444');
 //         console.log('Servidor executando na porta 4444');
 //     });
